@@ -37,7 +37,7 @@ jobs:
         run: aws lambda update-function-code --function-name my-lambda --zip-file fileb://deployment.zip
 
       - name: Start EC2 Instance
-        run: aws ec2 start-instances --instance-ids i-xxxxxxxxxxxx
+        run: aws ec2 start-instances --instance-ids i-09f1f6a4f46d99e8e
 
       - name: Stop EC2 Instance (Optional)
-        run: aws ec2 stop-instances --instance-ids i-xxxxxxxxxxxx
+        run: aws ec2 stop-instances --instance-ids i-09f1f6a4f46d99e8e
