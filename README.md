@@ -11,3 +11,4 @@ This repository contains automation workflows using **GitHub Actions**, **AWS CL
 1️⃣ Clone the repository:  
    ```bash
    git clone https://github.com/rich12104/workflow.git
+"Testing workflow trigger" 
